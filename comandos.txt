@@ -1,0 +1,19 @@
+ 1121  git init
+ 1122  git commit -m "first commit"
+ 1123  git branch -M main
+ 1124  git remote add origin git@github.com:kaviur/20230605-KarenUrbano.git
+ 1125  git push -u origin main
+ 1126  touch comandos.txt main.js index.html
+ 1127  git add .
+ 1128  git commit -m "commit 01 de KarenUrbano"
+ 1129  git push
+ 1130  git checkout -b feature
+ 1131  mkdir Hardware Software SeguridadInformatica
+ 1132  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 1133  git add .
+ 1134  git commit -m "commit 02 de KarenUrbano"
+ 1135  git push
+ 1136  git push origin feature
+ 1137  git checkout main
+ 1138  mv main.js resumenHardware.txt
+ 1139  mv index.html resumenSoftware.txt
